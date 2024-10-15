@@ -1,0 +1,10 @@
+# Ignore virtual environment-related folders
+Lib/
+Scripts/
+
+# Other common Python ignores
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
