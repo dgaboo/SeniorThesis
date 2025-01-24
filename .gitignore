@@ -1,6 +1,8 @@
 # Ignore virtual environment-related folders
 Lib/
 Scripts/
+etc/
+share/
 
 # Other common Python ignores
 *.pyc
@@ -8,3 +10,17 @@ __pycache__/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore my runfiles
+AnnealingSchedules/
+Couplings/
+"DWave Examples/"
+Hamiltonians/
+images/
+NotebookOutputs/
+"Reverse Annealing Example/"
+ServerOutputs/
+09-1262A-D_QPU_Properties_Advantage_system4_1.pdf
+09-1263A-B_Advantage_system4_1_annealing_schedule.xlsx
+validation_1.cpp
+pyvenv.cfg
